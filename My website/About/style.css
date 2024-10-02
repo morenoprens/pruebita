@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+}
+
+header{
+    background-color: #222222;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+}
+
+li:nth-child(2){
+    color: red;
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+h3{
+    transition: 0.3s;
+}
+
+h3:hover{
+    color: red;
+    cursor: pointer;
+}
+
+li{
+    cursor: pointer;
+}
+
+li:hover{
+    color: red;
+    text-shadow: 1px 1px 2px black;
+}
+
+.container{
+    height: 65vh;
+    background-image: url('https://heroshotphotography.com/wp-content/uploads/2021/12/Group-Portrait-Start-up-Corporate-Sydney-Bowe.jpg');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-y: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(243, 243, 213);
+}
+
+.texto{
+    text-align: right;
+    color: black;
+    padding: 50px;
+    margin-left: 650px;
+}
+
+section{
+    width: 60vw;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px;
+}
+
+section h3{
+    padding-bottom: 10px;
+}
+
+.staff{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #222222;
+}
+
+.staffmember1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.staffmember1 img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.stafftittle{
+    margin: 20px;
+}
+

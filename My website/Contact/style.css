@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+}
+
+header{
+    background-color: #222222;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+}
+
+li:nth-child(4){
+    color: red;
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+h3{
+    transition: 0.3s;
+}
+
+h3:hover{
+    color: red;
+    cursor: pointer;
+}
+
+li{
+    cursor: pointer;
+}
+
+li:hover{
+    color: red;
+    text-shadow: 1px 1px 2px black;
+}
+
+.container{
+    height: 100vh;
+    background-image: url('https://etimg.etb2bimg.com/photo/100088163.cms');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto{
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    padding: 50px;
+}
+
+section{
+    width: 60vw;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px;
+}
+
+section h3{
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-form label {
+    margin-bottom: 8px;
+    display: block;
+    color: #333;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #45a049;
+}
